@@ -10,4 +10,7 @@ Al finalizar, incluso hacer uso de la representación en 2D del cerebelo, llamad
 
 Data=suit_map2surf('PX.nii.gz','space','SUIT','stats',@minORmax);
 suit_plotflatmap(Data, 'cmap', hot, 'cscale', [.1,.7], 'threshold', .3);
+
+
  
+![flatmap](https://github.com/jokasta57/SUIT_pipeline_cerebelo/assets/16157859/e19ad9d6-966a-471b-9280-12a3bf252137)
