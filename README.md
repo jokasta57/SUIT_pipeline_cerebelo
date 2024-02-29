@@ -6,7 +6,7 @@ Una vez que termine el análisis de preprocesamiento, alineado y segmentación d
 que involucre sólo involucre cerebelo, p. ej. «randomise -i GM_mod_merg_s3 -m Cerebellum_GM_mask -o fslvbm -d design.mat -t design.con -T -n 10000»
 
 
-Al finalizar, incluso hacer uso de la representación en 2D del cerebelo, llamada "flatmap", p. ej:
+Al finalizar, es posible generar una representación 2D del cerebelo, llamada "flatmap", p. ej:
 
 Data=suit_map2surf('PX.nii.gz','space','SUIT','stats',@minORmax);
 suit_plotflatmap(Data, 'cmap', hot, 'cscale', [.1,.7], 'threshold', .3);
